@@ -2,7 +2,7 @@ package Chapter2.example;
 
 import java.util.Scanner;
 
-public class GradeCalculate {
+public class GradeCalculator {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
