@@ -2,10 +2,11 @@ package Chapter4;
 
 public class Methods {
     public static void main(String[] args) {
-        hello();
-        factorial(5);
-        tanıtma("Onur");
-        addition(4,2);
+       // hello();
+        //factorial(5);
+        //tanıtma("Onur");
+        //addition(4,2);
+        System.out.println("Çıktı değeri : "+ add(2,6));
 
     }
     public static void hello(){
@@ -23,5 +24,10 @@ public class Methods {
     }
     public static void  addition(int num1,int num2){
         System.out.println("Toplama işlemi sonucu : "+ (num1+num2));
+    }
+    public static int add(int number1,int number2){
+        //System.out.println("Toplama işleminiz başlıyor...");
+        return (number1 + number2);
+
     }
 }
