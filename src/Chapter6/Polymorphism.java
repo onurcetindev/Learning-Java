@@ -15,6 +15,15 @@ public class Polymorphism {
         Animal animal3 = new Bird("Paşa");
         System.out.println(animal3.speak());
 
+        Dog dog = new Dog("Karaba");
+        if (dog instanceof Dog){       // instance of o classtan mı türetildiğini gösterir
+            System.out.println("This object instance of Dog Class");
+        }
+        if (dog instanceof Animal){
+            System.out.println("This object instance of Animal Class");  // iki if bloğu da çalışacak çünkü extend ettik
+        }
+
+
     }
 }
 class Animal{
